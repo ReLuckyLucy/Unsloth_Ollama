@@ -10,7 +10,7 @@ llama3-8b模型需要6G显存
 
 ## 环境安装
 
-> ​	以下为基于仓库[unslothai/unsloth：Finetune Llama 3、Mistral 和 Gemma LLM 速度提高 2-5 倍，内存减少 80% (github.com)](https://github.com/unslothai/unsloth)所编写
+> ​	以下为基于仓库 [unsloth](https://github.com/unslothai/unsloth)所编写
 
 
 
@@ -100,7 +100,7 @@ python -m bitsandbytes
 
 ## 代码运行
 
-> 本代码基于[[Alpaca + Llama-3 8b full example.ipynb - Colab (google.com)](https://colab.research.google.com/drive/135ced7oHytdxu3N2DNe1Z0kqjyYIkDXp?usp=sharing#scrollTo=2eSvM9zX_2d3)](https://colab.research.google.com/drive/1kpfbpSXsv1Qg4pqbCBF8D-AI4kbG-14g)
+> 本代码基于[Alpaca + Llama-3 8b full example.ipynb - Colab ](https://colab.research.google.com/drive/135ced7oHytdxu3N2DNe1Z0kqjyYIkDXp?usp=sharing#scrollTo=2eSvM9zX_2d3)
 
 选择内核后，运行main.ipynb
 
@@ -181,10 +181,10 @@ model.save_pretrained_gguf("model", tokenizer, quantization_method = "q4_k_m")
 
 推荐使用ollama部署
 
-[ollama/ollama: Get up and running with Llama 3, Mistral, Gemma, and other large language models. (github.com)](https://github.com/ollama/ollama)
+[ollam](https://github.com/ollama/ollama)
 
 
 
 若需要前端可视化，推荐使用open webui部署
 
-[open-webui/open-webui: User-friendly WebUI for LLMs (Formerly Ollama WebUI) (github.com)](https://github.com/open-webui/open-webui)
+[open-webui](https://github.com/open-webui/open-webui)
