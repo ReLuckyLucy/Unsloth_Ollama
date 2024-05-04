@@ -172,9 +172,9 @@ model.save_pretrained_gguf("model", tokenizer, quantization_method = "f16")
 model.save_pretrained_gguf("model", tokenizer, quantization_method = "q4_k_m")
 
 ```
-> # q8_0 - 快速转换。资源使用率高，但一般可以接受。
-> #q4_k_m - 推荐。将 Q6_K 用于一半的 attention.wv 和 feed_forward.w2 张量，否则Q4_K。
-> #q5_k_m - 推荐。将 Q6_K 用于一半的 attention.wv 和 feed_forward.w2 张量，否则Q5_K。
+> q8_0 - 快速转换。资源使用率高，但一般可以接受。
+> q4_k_m - 推荐。将 Q6_K 用于一半的 attention.wv 和 feed_forward.w2 张量，否则Q4_K。
+> q5_k_m - 推荐。将 Q6_K 用于一半的 attention.wv 和 feed_forward.w2 张量，否则Q5_K。
 
 
 ## 微调模型部署
