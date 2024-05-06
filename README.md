@@ -188,7 +188,27 @@ model.save_pretrained_gguf("model", tokenizer, quantization_method = "q4_k_m")
 
 [ollam](https://github.com/ollama/ollama)
 
+### 从 GGUF 导入
 
+Ollama 支持在 Modelfile 中导入 GGUF 模型：
+
+1. 创建一个名为 `Modelfile`的文件，其中包含一条指令。`FROM`其中包含要导入的模型的本地文件路径
+
+   ```
+   FROM ./vicuna-33b.Q4_0.gguf
+   ```
+
+2. 在 Ollama 中创建模型
+
+   ```
+   ollama create example -f Modelfile
+   ```
+
+3. 运行模型
+
+   ```
+   ollama run example
+   ```
 
 若需要前端可视化，推荐使用open webui部署
 
