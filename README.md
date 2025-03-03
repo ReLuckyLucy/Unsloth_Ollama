@@ -4,6 +4,9 @@
  <img alt="ollama" height="200px" src="https://github.com/ollama/ollama/assets/3325447/0d0b44e2-8f4a-4e99-9b52-a5c1c741c8f7">
 </div>
 
+<h1 align="center">Unsloth_Ollama</h1>
+<h1 align="center"基于Unsloth框架下，使用llama3大模型为基底的模型微调</h1>
+
 
 ## 环境要求
 
